@@ -1,0 +1,81 @@
+Adding basic template files with a map
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   css/creative.min.css
+#	new file:   img/header.jpg
+#	new file:   img/portfolio/fullsize/1.jpg
+#	new file:   img/portfolio/fullsize/2.jpg
+#	new file:   img/portfolio/fullsize/3.jpg
+#	new file:   img/portfolio/fullsize/4.jpg
+#	new file:   img/portfolio/fullsize/5.jpg
+#	new file:   img/portfolio/fullsize/6.jpg
+#	new file:   img/portfolio/linkedin.png
+#	new file:   img/portfolio/thumbnails/1.jpg
+#	new file:   img/portfolio/thumbnails/2.jpg
+#	new file:   img/portfolio/thumbnails/3.jpg
+#	new file:   img/portfolio/thumbnails/4.jpg
+#	new file:   img/portfolio/thumbnails/5.jpg
+#	new file:   img/portfolio/thumbnails/6.jpg
+#	new file:   index.html
+#	new file:   js/creative.min.js
+#	new file:   stylesheets/github-light.css
+#	new file:   stylesheets/normalize.css
+#	new file:   stylesheets/stylesheet.css
+#	new file:   vendor/bootstrap/css/bootstrap.css
+#	new file:   vendor/bootstrap/css/bootstrap.min.css
+#	new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.eot
+#	new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.svg
+#	new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf
+#	new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.woff
+#	new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2
+#	new file:   vendor/bootstrap/js/bootstrap.js
+#	new file:   vendor/bootstrap/js/bootstrap.min.js
+#	new file:   vendor/font-awesome/css/font-awesome.css
+#	new file:   vendor/font-awesome/css/font-awesome.min.css
+#	new file:   vendor/font-awesome/fonts/FontAwesome.otf
+#	new file:   vendor/font-awesome/fonts/fontawesome-webfont.eot
+#	new file:   vendor/font-awesome/fonts/fontawesome-webfont.svg
+#	new file:   vendor/font-awesome/fonts/fontawesome-webfont.ttf
+#	new file:   vendor/font-awesome/fonts/fontawesome-webfont.woff
+#	new file:   vendor/font-awesome/fonts/fontawesome-webfont.woff2
+#	new file:   vendor/font-awesome/less/animated.less
+#	new file:   vendor/font-awesome/less/bordered-pulled.less
+#	new file:   vendor/font-awesome/less/core.less
+#	new file:   vendor/font-awesome/less/fixed-width.less
+#	new file:   vendor/font-awesome/less/font-awesome.less
+#	new file:   vendor/font-awesome/less/icons.less
+#	new file:   vendor/font-awesome/less/larger.less
+#	new file:   vendor/font-awesome/less/list.less
+#	new file:   vendor/font-awesome/less/mixins.less
+#	new file:   vendor/font-awesome/less/path.less
+#	new file:   vendor/font-awesome/less/rotated-flipped.less
+#	new file:   vendor/font-awesome/less/screen-reader.less
+#	new file:   vendor/font-awesome/less/stacked.less
+#	new file:   vendor/font-awesome/less/variables.less
+#	new file:   vendor/font-awesome/scss/_animated.scss
+#	new file:   vendor/font-awesome/scss/_bordered-pulled.scss
+#	new file:   vendor/font-awesome/scss/_core.scss
+#	new file:   vendor/font-awesome/scss/_fixed-width.scss
+#	new file:   vendor/font-awesome/scss/_icons.scss
+#	new file:   vendor/font-awesome/scss/_larger.scss
+#	new file:   vendor/font-awesome/scss/_list.scss
+#	new file:   vendor/font-awesome/scss/_mixins.scss
+#	new file:   vendor/font-awesome/scss/_path.scss
+#	new file:   vendor/font-awesome/scss/_rotated-flipped.scss
+#	new file:   vendor/font-awesome/scss/_screen-reader.scss
+#	new file:   vendor/font-awesome/scss/_stacked.scss
+#	new file:   vendor/font-awesome/scss/_variables.scss
+#	new file:   vendor/font-awesome/scss/font-awesome.scss
+#	new file:   vendor/jquery/jquery.js
+#	new file:   vendor/jquery/jquery.min.js
+#	new file:   vendor/magnific-popup/jquery.magnific-popup.js
+#	new file:   vendor/magnific-popup/jquery.magnific-popup.min.js
+#	new file:   vendor/magnific-popup/magnific-popup.css
+#	new file:   vendor/scrollreveal/scrollreveal.js
+#	new file:   vendor/scrollreveal/scrollreveal.min.js
+#
