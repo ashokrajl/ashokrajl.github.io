@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A display of my tech stack, experience and contact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokrajl/ashokrajl.github.io.git"
+  },
+  "keywords": [
+    "Ashok Raj",
+    "portfolio"
+  ],
+  "author": "Ashok Raj L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashokrajl/ashokrajl.github.io/issues"
+  },
+  "homepage": "https://github.com/ashokrajl/ashokrajl.github.io#readme",
+  "devDependencies": {
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
