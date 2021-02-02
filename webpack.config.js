@@ -7,5 +7,22 @@ module.exports = {
     },
     externals: {
         "jquery": "jQuery"
-      }
+      },
+      module: {
+        rules: [
+          {
+            test: /\.css$/,
+            use: [
+              'style-loader',
+              'css-loader',
+            ],
+          },
+          {
+            test: /\.(svg|gif|jpg|png|eot|woff|ttf)$/,
+            use: [
+              'url-loader',
+            ],
+          }
+        ],
+      },
   };
