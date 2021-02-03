@@ -1,10 +1,14 @@
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
 module.exports = {
     entry: './src/js/main.js',
-    mode: 'development',
+    mode: 'production',
     output: {
       path: `${__dirname}/dist`,
       filename: 'bundle.js',
     },
+    plugins: [new MiniCssExtractPlugin()],
     externals: {
         "jquery": "jQuery"
       },
@@ -13,7 +17,7 @@ module.exports = {
           {
             test: /\.css$/,
             use: [
-              'style-loader',
+                MiniCssExtractPlugin.loader,
               'css-loader',
             ],
           },
@@ -23,6 +27,13 @@ module.exports = {
               'url-loader',
             ],
           }
+        ],
+      },
+      optimization: {
+        minimize: true,
+        minimizer: [
+          `...`,
+          new CssMinimizerPlugin(),
         ],
       },
   };
