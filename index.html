@@ -1,412 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-    <title>Ashok's</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ashok Raj — Senior Full Stack Developer with 14+ years building web apps, APIs, and scalable systems.">
+  <title>Ashok Raj — Full Stack Developer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
 
-<body id="page-top">
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AR<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#snapshots">Snapshots</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Ashok's</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Tech Stack</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Highlights</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#timeline">Experience</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Snapshots</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting hero-entrance">Hello, world. I'm</p>
+        <h1 class="hero-name hero-entrance">Ashok Raj<span class="accent">.</span></h1>
+        <h2 class="hero-role hero-entrance">
+          <span class="typewriter" aria-live="polite" data-words='["Full Stack Developer","React Specialist","Node.js Engineer","AI App Builder"]'></span>
+          <span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc hero-entrance">14+ years building scalable web apps, APIs, and engineering teams across top MNCs and a PayPal-incubated startup.</p>
+        <div class="hero-actions hero-entrance">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#experience" class="btn btn-ghost">View Experience</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">{Hello World!}- `this's Ashok`</h1>
-                <hr>
-                <p>From a Computer Science Engineer to a Full stack Web Developer, bridged just by the passion to build amazing stuff & the love of code</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Seriously!?</a>
-            </div>
+        <div class="hero-socials hero-entrance">
+          <a href="https://www.linkedin.com/in/ashokrajl" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:ashokraj.info@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
         </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Language 's just another party @ a developer's</h2>
-                    <hr class="light">
-                    <p class="text-faded">New & better technologies swoop in every day, my key is a strong base (Engineering in Computer Science), constant learning and trying small hands on projects to steer effective in the web currents</p>
-                    <div class="techstack">
-                    <span class="badge badge-dark">ReactJS, Redux, Saga & Thunk</span>
-                    <span class="badge badge-dark">JavaScript, ES6, TypeScript</span>
-                    <span class="badge badge-dark">Java</span>
-                    <span class="badge badge-dark">SQL, NoSQL</span>
-                    <span class="badge badge-dark">GraphQL</span>
-                    <span class="badge badge-dark">NodeJS, ExpressJS</span>
-                    <span class="badge badge-dark">CSS, SCSS, BEM</span>
-                    <span class="badge badge-dark">HTML5</span>
-                    <span class="badge badge-dark">ElasticSearch (ELK)</span>
-                    <span class="badge badge-dark">jQuery</span>
-                    <span class="badge badge-dark">SequelizeJS (ORM)</span>
-                    <span class="badge badge-dark">Bootstrap</span>
-                    <span class="badge badge-dark">Material UI</span>
-                    <span class="badge badge-dark">Storybook</span>
-                    <span class="badge badge-dark">React Native</span>
-                    <span class="badge badge-dark">Eslint, SonarQube</span>
-                    <span class="badge badge-dark">Jest, Cypress</span>
-                    <span class="badge badge-dark">Photoshop, Illustrator</span>
-                    <span class="badge badge-dark">git</span>
-                    <span class="badge badge-dark">JIRA, confluence, Trello</span>
-                    <span class="badge badge-dark">UNIX, Linux</span>
-                    <span class="badge badge-dark">Docker</span>
-                    <span class="badge badge-dark">AGILE - Scrum</span>
-                    <span class="badge badge-dark">XP, Pair, Mob programming</span>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="hero-code hero-entrance" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-titlebar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="code-filename">ashok.js</span>
+          </div>
+          <pre class="code-body"><code><span class="c-keyword">const</span> <span class="c-var">ashok</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Ashok Raj L'</span>,
+  <span class="c-prop">role</span>: <span class="c-str">'Full Stack Developer'</span>,
+  <span class="c-prop">experience</span>: <span class="c-str">'<span id="exp-years">14+</span> years'</span>,
+  <span class="c-prop">stack</span>: [
+    <span class="c-str">'React'</span>, <span class="c-str">'Node.js'</span>,
+    <span class="c-str">'TypeScript'</span>, <span class="c-str">'Python'</span>,
+  ],
+  <span class="c-prop">passion</span>: <span class="c-str">'Building great apps'</span>,
+  <span class="c-fn">hire</span>() {
+    <span class="c-keyword">return</span> <span class="c-str">'Let\'s build together!'</span>;
+  }
+};</code></pre>
         </div>
-    </section>
+      </div>
+    </div>
+    <a href="#skills" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-line"></div>
+    </a>
+  </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Highlights</h2>
-                    <hr class="primary">
-                </div>
-            </div>
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I work with</p>
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill">React</span>
+            <span class="pill">Redux</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">JavaScript ES6+</span>
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS / SCSS</span>
+            <span class="pill">BEM</span>
+            <span class="pill">Material UI</span>
+            <span class="pill">Storybook</span>
+            <span class="pill">React Native</span>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Startup</h3>
-                        <p class="text-muted">Bootstraped - doparttime.com, incubated by PayPal and selected by Google Launchpad</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Professional Experience</h3>
-                        <p class="text-muted">8 Years of building web apps experience including top MNC and a Startup</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Out for challenges</h3>
-                        <p class="text-muted">Hackathons, competitions, projects, including Particaption in Guiness world record hackathon.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Code with Love</h3>
-                        <p class="text-muted">Ever updating, ever learning, stand by code quality and standards</p>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-pills">
+            <span class="pill">Node.js</span>
+            <span class="pill">Express.js</span>
+            <span class="pill">GraphQL</span>
+            <span class="pill">Java</span>
+            <span class="pill">REST APIs</span>
+            <span class="pill">SequelizeJS</span>
+            <span class="pill">ElasticSearch</span>
+          </div>
         </div>
-    </section>
-
-    <section id="timeline">
-            <div class="container">
-                    <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2 class="section-heading">Experience Timeline</h2>
-                                <hr class="primary">
-                            </div>
-                        </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="main-timeline7">
-                                <div class="timeline">
-                                    <div class="timeline-icon"><img class="infy sr-icons" src="./img/infosys-logo.png" /></div>
-                                    <span class="year">Present</span>
-                                    <div class="timeline-content">
-                                        <h5 class="title">Specialist Programmer (Expert Track)</h5>
-                                        <p class="description">
-                                                To learn, R&D, implement and test latest technologies and help build strong technical teams
-                                        </p>
-                                    </div>
-                                </div>                                
-                                <div class="timeline">
-                                    <div class="timeline-icon"><img class="cognizant sr-icons" src="./img/Renault-Logo.png" /></div>
-                                    <span class="year">2019</span>
-                                    <div class="timeline-content">
-                                        <h5 class="title">Senior Full Stack Developer</h5>
-                                        <p class="description">
-                                                To enable the team develop web-applications and API using ReactJS, NodeJS used by engineers for planning of manufacturing parts of a car.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="timeline">
-                                    <div class="timeline-icon"><img class="cognizant sr-icons" src="./img/Cognizant_logo.png" /></div>
-                                    <span class="year">2016</span>
-                                    <div class="timeline-content">
-                                        <h5 class="title">Full Stack Developer</h5>
-                                        <p class="description">
-                                                Search tool customization for faster text search for Pearson Education based on ElasticSearch, Cassandra and Logstash.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="timeline">
-                                    <div class="timeline-icon"><img class="accenture sr-icons" src="./img/Accenture-logo.png" /></div>
-                                    <span class="year">2014</span>
-                                    <div class="timeline-content">
-                                        <h5 class="title">Web developer/UI Designer</h5>
-                                        <p class="description">
-                                                Developed Java web services and designed web pages/logos, for tablet applications used by Walmart
-                                                employees.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="timeline">
-                                        <div class="timeline-icon"><img class="doparttime sr-icons" src="./img/doparttime.png" /></div>
-                                        <span class="year">2013</span>
-                                        <div class="timeline-content">
-                                            <h5 class="title">Architect/Entrepreneur</h5>
-                                            <p class="description">
-                                                    Created DoPartTime.com (a PayPal incubated startup), a job portal and android app for part time jobs in India.
-                                            </p>
-                                        </div>
-                                    </div>
-                                <div class="timeline">
-                                    <div class="timeline-icon"><img class="wiprologo sr-icons" src="./img/Wipro_Logo_New.png" /></div>
-                                    <span class="year">2011</span>
-                                    <div class="timeline-content">
-                                        <h5 class="title">Java Developer</h5>
-                                        <p class="description">
-                                                Developing payment management web portal for Citi group Employees, to manage
-                                                transactions and approve them, using customized J2EE framework.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="timeline">
-                                        <div class="timeline-icon"><i class="fa fa-graduation-cap sr-icons"></i></div>
-                                        <span class="year">2007-11</span>
-                                        <div class="timeline-content">
-                                            <h5 class="title">Graduated</h5>
-                                            <p class="description">
-                                                from Karunya University, as Bachelor of Engineering in Computer Science.
-                                            </p>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-    </section>
-
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <!-- <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
-                <!-- <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
-                <!-- <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/gallery/google_mobile.jpg" class="portfolio-box">
-                        <img src="img/gallery/google_mobile.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Google for Mobile
-                                </div>
-                                <div class="project-name">
-                                    2015, Bengaluru
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/gallery/appfest.jpg" class="portfolio-box">
-                        <img src="img/gallery/appfest.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Windows AppFest
-                                </div>
-                                <div class="project-name">
-                                    A 18 hour coding marathon by Microsoft
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/gallery/ReleasePlanning.jpg" class="portfolio-box">
-                        <img src="img/gallery/ReleasePlanning.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Release Planning @ Renault Digital
-                                </div>
-                                <div class="project-name">
-                                    Paris, France
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Data &amp; DevOps</h3>
+          <div class="skill-pills">
+            <span class="pill">SQL</span>
+            <span class="pill">NoSQL</span>
+            <span class="pill">Docker</span>
+            <span class="pill">Git</span>
+            <span class="pill">Linux / Unix</span>
+            <span class="pill">ELK Stack</span>
+          </div>
         </div>
-    </section>
+        <div class="skill-group">
+          <h3 class="skill-group-title">AI &amp; Tools</h3>
+          <div class="skill-pills">
+            <span class="pill">OpenAI API</span>
+            <span class="pill">Claude API</span>
+            <span class="pill">LangChain</span>
+            <span class="pill">Python</span>
+            <span class="pill">Prompt Engineering</span>
+            <span class="pill">RAG</span>
+            <span class="pill">AI Agents</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Quality &amp; Process</h3>
+          <div class="skill-pills">
+            <span class="pill">Jest</span>
+            <span class="pill">Cypress</span>
+            <span class="pill">ESLint</span>
+            <span class="pill">SonarQube</span>
+            <span class="pill">Agile / Scrum</span>
+            <span class="pill">Pair Programming</span>
+            <span class="pill">JIRA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>I'm always with an appetite for interesting and challenging tasks, to contribute, help, share and grow.</p>
-                </div>
-                <div class="col-lg-3 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+91~9486-876089</p>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:ashokraj.info@gmail.com">ashokraj.info@gmail.com</a></p>
-                </div>
-                <div class="col-lg-2  text-center">
-                        <i class="fa fa-linkedin-square fa-3x sr-contact" aria-hidden="true"></i>
-                    <a href="https://www.linkedin.com/in/ashokrajl">
-                       <div>LinkedIn</div> 
-                    </a>
-                </div>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Where I've been</p>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">Present</span>
+              <img src="img/infosys-logo.png" alt="Infosys" class="company-logo">
             </div>
-            <div class="row">
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="120%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=chennai&t=&z=6&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;}</style></div>
+            <h3 class="timeline-role">Senior Technologist</h3>
+            <p class="timeline-company">Infosys</p>
+            <p class="timeline-desc">Research, implement and test cutting-edge technologies; build and mentor strong technical teams.</p>
+            <div class="timeline-tags">
+              <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Leadership</span>
             </div>
-            
-        </div>  
+          </div>
+        </div>
 
-    </section>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2019</span>
+              <img src="img/Renault-Logo.png" alt="Renault" class="company-logo">
+            </div>
+            <h3 class="timeline-role">Senior Full Stack Developer</h3>
+            <p class="timeline-company">Renault Digital — Paris, France</p>
+            <p class="timeline-desc">Led development of web apps and APIs using ReactJS and Node.js used by engineers for manufacturing parts planning.</p>
+            <div class="timeline-tags">
+              <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">GraphQL</span>
+            </div>
+          </div>
+        </div>
 
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2016</span>
+              <img src="img/Cognizant_logo.png" alt="Cognizant" class="company-logo">
+            </div>
+            <h3 class="timeline-role">Full Stack Developer</h3>
+            <p class="timeline-company">Cognizant</p>
+            <p class="timeline-desc">Built custom search tooling for Pearson Education using ElasticSearch, Cassandra and Logstash for high-speed text retrieval.</p>
+            <div class="timeline-tags">
+              <span class="tag">ElasticSearch</span><span class="tag">Cassandra</span><span class="tag">Logstash</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2014</span>
+              <img src="img/Accenture-logo.png" alt="Accenture" class="company-logo">
+            </div>
+            <h3 class="timeline-role">Web Developer / UI Designer</h3>
+            <p class="timeline-company">Accenture</p>
+            <p class="timeline-desc">Developed Java web services and designed web pages and logos for Walmart's internal tablet applications.</p>
+            <div class="timeline-tags">
+              <span class="tag">Java</span><span class="tag">UI Design</span><span class="tag">Web Services</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2013</span>
+              <img src="img/doparttime.png" alt="DoPartTime" class="company-logo">
+            </div>
+            <h3 class="timeline-role">Founder / Architect</h3>
+            <p class="timeline-company">DoPartTime.com</p>
+            <p class="timeline-desc">Built and launched a job portal and Android app for part-time work in India. Incubated by PayPal, selected by Google Launchpad.</p>
+            <div class="timeline-tags">
+              <span class="tag">Startup</span><span class="tag">Android</span><span class="tag">PayPal Incubated</span>
+            </div>
+          </div>
+        </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107264037-2"></script>
-    <script>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2011</span>
+              <img src="img/Wipro_Logo_New.png" alt="Wipro" class="company-logo">
+            </div>
+            <h3 class="timeline-role">Java Developer</h3>
+            <p class="timeline-company">Wipro</p>
+            <p class="timeline-desc">Developed a payment management portal for Citigroup employees to manage and approve transactions using J2EE.</p>
+            <div class="timeline-tags">
+              <span class="tag">Java</span><span class="tag">J2EE</span><span class="tag">Enterprise</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker timeline-marker--edu"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-year">2007–11</span>
+            </div>
+            <h3 class="timeline-role">B.E. Computer Science</h3>
+            <p class="timeline-company">Karunya University</p>
+            <p class="timeline-desc">Bachelor of Engineering in Computer Science — the foundation of it all.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section id="highlights" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What defines me</p>
+        <h2 class="section-title">Highlights</h2>
+      </div>
+      <div class="highlights-grid">
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>
+          </div>
+          <h3>Startup Founder</h3>
+          <p>Built DoPartTime.com from scratch — incubated by PayPal and selected by Google Launchpad.</p>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"/></svg>
+          </div>
+          <h3><span class="exp-highlight">14+</span> Years Experience</h3>
+          <p>Built web apps across top MNCs — Infosys, Renault, Cognizant, Accenture, and Wipro.</p>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/></svg>
+          </div>
+          <h3>Hackathon Veteran</h3>
+          <p>Competed in multiple hackathons including a Guinness World Record event and Microsoft AppFest.</p>
+        </div>
+        <div class="highlight-card reveal">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+          </div>
+          <h3>Code Quality First</h3>
+          <p>Advocate for clean code, TDD, pair programming, and engineering best practices across every project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SNAPSHOTS -->
+  <section id="snapshots" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">In action</p>
+        <h2 class="section-title">Snapshots</h2>
+      </div>
+      <div class="snapshots-grid">
+        <div class="snapshot reveal">
+          <img src="img/gallery/google_mobile.jpg" alt="Google for Mobile 2015, Bengaluru" loading="lazy">
+          <div class="snapshot-overlay">
+            <p class="snapshot-event">Google for Mobile</p>
+            <p class="snapshot-detail">2015, Bengaluru</p>
+          </div>
+        </div>
+        <div class="snapshot reveal">
+          <img src="img/gallery/appfest.jpg" alt="Windows AppFest — Microsoft 18-hour hackathon" loading="lazy">
+          <div class="snapshot-overlay">
+            <p class="snapshot-event">Windows AppFest</p>
+            <p class="snapshot-detail">18-hour coding marathon by Microsoft</p>
+          </div>
+        </div>
+        <div class="snapshot reveal">
+          <img src="img/gallery/ReleasePlanning.jpg" alt="Release Planning at Renault Digital, Paris" loading="lazy">
+          <div class="snapshot-overlay">
+            <p class="snapshot-event">Release Planning @ Renault Digital</p>
+            <p class="snapshot-detail">Paris, France</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-left reveal">
+          <p class="section-label">What's next</p>
+          <h2 class="section-title">Let's Build Together</h2>
+          <p class="contact-blurb">I'm always open to interesting and challenging problems — whether it's a new role, a side project, or just a good tech conversation.</p>
+          <a href="https://www.linkedin.com/in/ashokrajl" target="_blank" rel="noopener" class="linkedin-link">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+        <div class="contact-right reveal">
+          <form class="contact-form" action="https://formspree.io/f/xzzrpvpd" method="POST" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <span class="submit-text">Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <p class="form-success" id="form-success">Message sent! I'll get back to you soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-logo">AR<span class="accent">.</span></p>
+        <p class="footer-copy">© 2025 Ashok Raj L — Built with care, no Bootstrap required.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107264037-2"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-107264037-2');
-    </script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
+  </script>
 </body>
-
 </html>
